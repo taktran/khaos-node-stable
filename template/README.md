@@ -7,8 +7,8 @@
 * Install [nvm](https://github.com/creationix/nvm)
 * Use correct node version
 
-    nvm use
+        nvm use
 
 * Install dependencies
 
-    npm install
+        npm install
