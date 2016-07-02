@@ -16,4 +16,4 @@ Save the template locally with:
 
 Create a new Node.js project with:
 
-    khaos node6 my-project
+    khaos create node6 my-project
