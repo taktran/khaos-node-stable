@@ -1,0 +1,15 @@
+{
+  "name": "{{basename}}",
+  "version": "0.0.1",
+  "description": "{{description}}",
+  "main": "index.js",
+  "scripts": {
+    "lint": "semistandard",
+    "test": "npm run lint"
+  },
+  "author": "Tak Tran <contact@tutaktran.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "semistandard": "8.0.0"
+  }
+}
