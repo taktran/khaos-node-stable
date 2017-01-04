@@ -12,3 +12,11 @@
 * Install dependencies
 
         npm install
+
+* To run the `*:watch` tasks install [nodemon](https://github.com/remy/nodemon) globally
+
+        npm install -g nodemon
+
+* To start the app
+
+        npm start
