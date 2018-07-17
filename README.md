@@ -1,6 +1,6 @@
-# Khaos Nodejs 6 template
+# Khaos NodeJS (stable release) template
 
-A [Khaos](https://github.com/segmentio/khaos) template to start new Node.js v6.x projects quickly.
+A [Khaos](https://github.com/segmentio/khaos) template to start new NodeJS (stable release) projects quickly.
 
 ## Installation
 
@@ -10,10 +10,10 @@ Install Khaos globally
 
 Save the template locally with:
 
-    khaos install taktran/khaos-node6 node6
+    khaos install taktran/khaos-node-stable node-stable
 
 ## Usage
 
 Create a new Node.js project with:
 
-    khaos create node6 my-project
+    khaos create node-stable my-project
