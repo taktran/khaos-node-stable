@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "{{description}}",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taktran/{{basename}}.git"
+  },
   "scripts": {
     "start": "node index",
     "start:watch": "nodemon -e js,json -x 'npm start --silent'",
