@@ -8,6 +8,8 @@
     "url": "git+https://github.com/taktran/{{basename}}.git"
   },
   "scripts": {
+    "lint": "eslint *.js",
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
     "start": "node index",
     "start:watch": "nodemon -e js,json -x 'npm start --silent'",
     "test": "npm run lint",
@@ -16,6 +18,10 @@
   "author": "Tak Tran <contact@tutaktran.com>",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-no-only-tests": "^2.3.1",
+    "eslint-plugin-react": "^7.13.0",
     "prettier": "^1.15.3"
   }
 }
